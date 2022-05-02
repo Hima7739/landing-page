@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&family=Merriweather:ital@1&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            padding: 0px;
+            margin: 0px;
+
+        }
+
+        header::before {
+            background: url('https://source.unsplash.com/user/erondu/1600x900');
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            z-index: -2;
+            top: 0;
+            left: 0;
+            opacity: 0.3;
+        }
+
+        .navigation {
+            font-size: 20px;
+            display: flex;
+            text-align: center;
+            font-family: 'Dancing script', cursive;
+        }
+
+        li {
+            list-style: none;
+            padding: 15px 20px;
+            text-align: center;
+        }
+
+        section {
+            height: 300px;
+            display: flex;
+            margin: 3px 30px;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+
+        }
+
+        h1 {
+            font-size: 3rem;
+            font-family: 'Dancing Script', cursive;
+        }
+
+        p {
+            text-align: center;
+            font-family: 'Baloo Bhai 2', cursive;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="navigation">
+                <li class="item">Home</li>
+                <li class="item">Service</li>
+                <li class="item">About us</li>
+                <li class="item">Contact us</li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h1>Welcome to Coding World</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus expedita perferendis fugiat molestiae
+            sunt eos exercitationem reprehenderit sequi facere quia, dolorum odio? Consectetur numquam deleniti
+            doloremque dicta laborum! Nostrum repellat quas reprehenderit amet quisquam, quia provident quo ullam
+            quaerat laboriosam numquam architecto velit maxime at ratione veniam incidunt facere fuga.</p>
+    </section>
+</body>
+
+</html>
